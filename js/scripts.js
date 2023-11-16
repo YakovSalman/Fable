@@ -569,7 +569,7 @@ cardsEl.forEach(card => {
 
     cardColors.forEach(color => {
         const colorHref = color.getAttribute('href').replace(/^\.+/g, '')
-        console.log(window.location.pathname);
+
         if(window.location.pathname == colorHref) {
             color.classList.add('active')
 
